@@ -1,3 +1,13 @@
+METHOD:-1 
+int first = -1, last = -1;
+for (int i = 0; i < n; i++) {
+    if (arr[i] == target) {
+        if (first == -1) first = i;
+        last = i;
+    }
+}
+
+METHOD:-2
 class Solution {
 public:
     int firstposition(vector<int>& arr, int target){
