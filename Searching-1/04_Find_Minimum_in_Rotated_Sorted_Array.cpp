@@ -1,3 +1,12 @@
+METHOD1:-
+
+int mini = INT_MAX;
+for (int i = 0; i < n; i++) {
+    mini = min(mini, arr[i]);
+}
+return mini;
+
+METHOD:-2
 class Solution {
 public:
     int findMin(vector<int>& nums) {
