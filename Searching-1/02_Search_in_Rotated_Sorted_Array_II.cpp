@@ -1,3 +1,7 @@
+METHOD:-1 use linear search and get the element
+
+
+METHOD:-2
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
