@@ -1,19 +1,17 @@
 //METHOD:-1
 int floorSqrt(int n) {
     int ans = 0;
-    //linear search on the answer space:
     for (long long i = 1; i <= n; i++) {
-        long long val = i * i;
-        if (val <= n * 1ll) {
+        long long value = i * i;
+        if (value <= n * 1LL)
             ans = i;
-        } else {
+        else
             break;
-        }
     }
     return ans;
 }
 
-METHOD:-2
+//METHOD:-2
 class Solution {
 public:
     int mySqrt(int n) {
