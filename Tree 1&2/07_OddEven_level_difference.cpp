@@ -10,7 +10,6 @@ struct Node
 
 class Solution{
   public:
-    /*You are required to complete this function*/
     int getLevelDiff(Node *root)
     {
        //Your code here
